@@ -7,17 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A9920EB1866215200F4D6EC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9920EA1866215200F4D6EC /* Cocoa.framework */; };
+		5A9920EB1866215200F4D6EC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9920EA1866215200F4D6EC /* Cocoa.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		5A9920F51866215200F4D6EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A9920F31866215200F4D6EC /* InfoPlist.strings */; };
 		5A9920F71866215200F4D6EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9920F61866215200F4D6EC /* main.m */; };
 		5A9920FB1866215200F4D6EC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5A9920F91866215200F4D6EC /* Credits.rtf */; };
 		5A9920FE1866215200F4D6EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9920FD1866215200F4D6EC /* AppDelegate.m */; };
 		5A9921011866215200F4D6EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A9920FF1866215200F4D6EC /* MainMenu.xib */; };
-		5A9921031866215200F4D6EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9921021866215200F4D6EC /* Images.xcassets */; };
 		5A99210A1866215300F4D6EC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9921091866215200F4D6EC /* XCTest.framework */; };
 		5A99210B1866215300F4D6EC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9920EA1866215200F4D6EC /* Cocoa.framework */; };
 		5A9921131866215300F4D6EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A9921111866215300F4D6EC /* InfoPlist.strings */; };
 		5A9921151866215300F4D6EC /* SampleMapViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9921141866215300F4D6EC /* SampleMapViewerTests.m */; };
+		5A992149186622EC00F4D6EC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A992134186622EC00F4D6EC /* CoreLocation.framework */; };
+		5A99214A1866231F00F4D6EC /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9920ED1866215200F4D6EC /* AppKit.framework */; };
+		5A99214D1866233C00F4D6EC /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A99214B1866233C00F4D6EC /* QTKit.framework */; };
+		5A99214E1866233C00F4D6EC /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A99214C1866233C00F4D6EC /* Quartz.framework */; };
+		5A9921501866235800F4D6EC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A99214F1866235800F4D6EC /* OpenGL.framework */; };
+		5A9921521866236500F4D6EC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9921511866236500F4D6EC /* Security.framework */; };
+		5A9921541866237800F4D6EC /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9921531866237800F4D6EC /* libc++.dylib */; };
+		5ADD833018662AAC0077741B /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5ADD832F18662AAC0077741B /* ArcGIS.bundle */; };
+		656EADBA186B8703009B9FBE /* Icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 656EADB6186B8703009B9FBE /* Icon16.png */; };
+		656EADBB186B8703009B9FBE /* Icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 656EADB7186B8703009B9FBE /* Icon32.png */; };
+		656EADBC186B8703009B9FBE /* Icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 656EADB8186B8703009B9FBE /* Icon128.png */; };
+		656EADBD186B8703009B9FBE /* Icon256.png in Resources */ = {isa = PBXBuildFile; fileRef = 656EADB9186B8703009B9FBE /* Icon256.png */; };
+		656EADC3186B87EC009B9FBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656EADC2186B87EC009B9FBE /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,12 +56,43 @@
 		5A9920FC1866215200F4D6EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A9920FD1866215200F4D6EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5A9921001866215200F4D6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		5A9921021866215200F4D6EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5A9921081866215200F4D6EC /* SampleMapViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleMapViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9921091866215200F4D6EC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5A9921101866215300F4D6EC /* SampleMapViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleMapViewerTests-Info.plist"; sourceTree = "<group>"; };
 		5A9921121866215300F4D6EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A9921141866215300F4D6EC /* SampleMapViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleMapViewerTests.m; sourceTree = "<group>"; };
+		5A992120186622EC00F4D6EC /* AppKitScripting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKitScripting.framework; path = System/Library/Frameworks/AppKitScripting.framework; sourceTree = SDKROOT; };
+		5A992121186622EC00F4D6EC /* AppleScriptKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptKit.framework; path = System/Library/Frameworks/AppleScriptKit.framework; sourceTree = SDKROOT; };
+		5A992122186622EC00F4D6EC /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		5A992123186622EC00F4D6EC /* AppleShareClientCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleShareClientCore.framework; path = System/Library/Frameworks/AppleShareClientCore.framework; sourceTree = SDKROOT; };
+		5A992124186622EC00F4D6EC /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		5A992125186622EC00F4D6EC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5A992126186622EC00F4D6EC /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		5A992127186622EC00F4D6EC /* AudioVideoBridging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioVideoBridging.framework; path = System/Library/Frameworks/AudioVideoBridging.framework; sourceTree = SDKROOT; };
+		5A992128186622EC00F4D6EC /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		5A992129186622EC00F4D6EC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5A99212A186622EC00F4D6EC /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		5A99212B186622EC00F4D6EC /* bundle1.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = bundle1.o; path = usr/lib/bundle1.o; sourceTree = SDKROOT; };
+		5A99212C186622EC00F4D6EC /* CalendarStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CalendarStore.framework; path = System/Library/Frameworks/CalendarStore.framework; sourceTree = SDKROOT; };
+		5A99212D186622EC00F4D6EC /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		5A99212E186622EC00F4D6EC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5A99212F186622EC00F4D6EC /* Collaboration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Collaboration.framework; path = System/Library/Frameworks/Collaboration.framework; sourceTree = SDKROOT; };
+		5A992130186622EC00F4D6EC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		5A992131186622EC00F4D6EC /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		5A992132186622EC00F4D6EC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5A992133186622EC00F4D6EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A992134186622EC00F4D6EC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5A99214B1866233C00F4D6EC /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		5A99214C1866233C00F4D6EC /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		5A99214F1866235800F4D6EC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		5A9921511866236500F4D6EC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5A9921531866237800F4D6EC /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		5ADD832F18662AAC0077741B /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../../Library/SDKs/ArcGIS/OSX/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
+		656EADB6186B8703009B9FBE /* Icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon16.png; sourceTree = "<group>"; };
+		656EADB7186B8703009B9FBE /* Icon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon32.png; sourceTree = "<group>"; };
+		656EADB8186B8703009B9FBE /* Icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon128.png; sourceTree = "<group>"; };
+		656EADB9186B8703009B9FBE /* Icon256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon256.png; sourceTree = "<group>"; };
+		656EADC2186B87EC009B9FBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +100,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A99214A1866231F00F4D6EC /* AppKit.framework in Frameworks */,
 				5A9920EB1866215200F4D6EC /* Cocoa.framework in Frameworks */,
+				5A992149186622EC00F4D6EC /* CoreLocation.framework in Frameworks */,
+				5A99214E1866233C00F4D6EC /* Quartz.framework in Frameworks */,
+				5A99214D1866233C00F4D6EC /* QTKit.framework in Frameworks */,
+				5A9921501866235800F4D6EC /* OpenGL.framework in Frameworks */,
+				5A9921521866236500F4D6EC /* Security.framework in Frameworks */,
+				5A9921541866237800F4D6EC /* libc++.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +126,7 @@
 		5A9920DE1866215200F4D6EC = {
 			isa = PBXGroup;
 			children = (
+				5ADD832F18662AAC0077741B /* ArcGIS.bundle */,
 				5A9920F01866215200F4D6EC /* SampleMapViewer */,
 				5A99210E1866215300F4D6EC /* SampleMapViewerTests */,
 				5A9920E91866215200F4D6EC /* Frameworks */,
@@ -95,6 +146,32 @@
 		5A9920E91866215200F4D6EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A9921531866237800F4D6EC /* libc++.dylib */,
+				5A9921511866236500F4D6EC /* Security.framework */,
+				5A99214F1866235800F4D6EC /* OpenGL.framework */,
+				5A99214B1866233C00F4D6EC /* QTKit.framework */,
+				5A99214C1866233C00F4D6EC /* Quartz.framework */,
+				5A992120186622EC00F4D6EC /* AppKitScripting.framework */,
+				5A992121186622EC00F4D6EC /* AppleScriptKit.framework */,
+				5A992122186622EC00F4D6EC /* AppleScriptObjC.framework */,
+				5A992123186622EC00F4D6EC /* AppleShareClientCore.framework */,
+				5A992124186622EC00F4D6EC /* ApplicationServices.framework */,
+				5A992125186622EC00F4D6EC /* AudioToolbox.framework */,
+				5A992126186622EC00F4D6EC /* AudioUnit.framework */,
+				5A992127186622EC00F4D6EC /* AudioVideoBridging.framework */,
+				5A992128186622EC00F4D6EC /* Automator.framework */,
+				5A992129186622EC00F4D6EC /* AVFoundation.framework */,
+				5A99212A186622EC00F4D6EC /* AVKit.framework */,
+				5A99212B186622EC00F4D6EC /* bundle1.o */,
+				5A99212C186622EC00F4D6EC /* CalendarStore.framework */,
+				5A99212D186622EC00F4D6EC /* Carbon.framework */,
+				5A99212E186622EC00F4D6EC /* CFNetwork.framework */,
+				5A99212F186622EC00F4D6EC /* Collaboration.framework */,
+				5A992130186622EC00F4D6EC /* CoreAudio.framework */,
+				5A992131186622EC00F4D6EC /* CoreAudioKit.framework */,
+				5A992132186622EC00F4D6EC /* CoreFoundation.framework */,
+				5A992133186622EC00F4D6EC /* CoreGraphics.framework */,
+				5A992134186622EC00F4D6EC /* CoreLocation.framework */,
 				5A9920EA1866215200F4D6EC /* Cocoa.framework */,
 				5A9921091866215200F4D6EC /* XCTest.framework */,
 				5A9920EC1866215200F4D6EC /* Other Frameworks */,
@@ -115,11 +192,12 @@
 		5A9920F01866215200F4D6EC /* SampleMapViewer */ = {
 			isa = PBXGroup;
 			children = (
+				656EADB5186B86D2009B9FBE /* Images */,
 				5A9920FC1866215200F4D6EC /* AppDelegate.h */,
 				5A9920FD1866215200F4D6EC /* AppDelegate.m */,
 				5A9920FF1866215200F4D6EC /* MainMenu.xib */,
-				5A9921021866215200F4D6EC /* Images.xcassets */,
 				5A9920F11866215200F4D6EC /* Supporting Files */,
+				656EADC2186B87EC009B9FBE /* Images.xcassets */,
 			);
 			path = SampleMapViewer;
 			sourceTree = "<group>";
@@ -152,6 +230,17 @@
 				5A9921111866215300F4D6EC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		656EADB5186B86D2009B9FBE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				656EADB6186B8703009B9FBE /* Icon16.png */,
+				656EADB7186B8703009B9FBE /* Icon32.png */,
+				656EADB8186B8703009B9FBE /* Icon128.png */,
+				656EADB9186B8703009B9FBE /* Icon256.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,10 +319,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656EADC3186B87EC009B9FBE /* Images.xcassets in Resources */,
 				5A9920F51866215200F4D6EC /* InfoPlist.strings in Resources */,
-				5A9921031866215200F4D6EC /* Images.xcassets in Resources */,
 				5A9920FB1866215200F4D6EC /* Credits.rtf in Resources */,
 				5A9921011866215200F4D6EC /* MainMenu.xib in Resources */,
+				656EADBC186B8703009B9FBE /* Icon128.png in Resources */,
+				656EADBD186B8703009B9FBE /* Icon256.png in Resources */,
+				656EADBA186B8703009B9FBE /* Icon16.png in Resources */,
+				5ADD833018662AAC0077741B /* ArcGIS.bundle in Resources */,
+				656EADBB186B8703009B9FBE /* Icon32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,9 +478,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/brigus/Library/SDKs/ArcGIS/OSX,
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Users/brigus/Library/SDKs/ArcGIS/OSX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleMapViewer/SampleMapViewer-Prefix.pch";
 				INFOPLIST_FILE = "SampleMapViewer/SampleMapViewer-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -397,6 +502,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/SDKs/ArcGIS/OSX",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleMapViewer/SampleMapViewer-Prefix.pch";
 				INFOPLIST_FILE = "SampleMapViewer/SampleMapViewer-Info.plist";
@@ -464,6 +573,7 @@
 				5A99211A1866215300F4D6EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A99211B1866215300F4D6EC /* Build configuration list for PBXNativeTarget "SampleMapViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +582,7 @@
 				5A99211D1866215300F4D6EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
