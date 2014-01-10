@@ -649,29 +649,29 @@
         <window title="SampleMapViewer" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="1080" height="776"/>
+            <rect key="contentRect" x="335" y="390" width="1006" height="776"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
             <view key="contentView" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="1080" height="776"/>
+                <rect key="frame" x="0.0" y="0.0" width="1006" height="776"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <splitView dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rid-JI-QiG">
-                        <rect key="frame" x="0.0" y="0.0" width="1079" height="776"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1005" height="776"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <customView wantsLayer="YES" id="h0p-Ph-lYW">
-                                <rect key="frame" x="0.0" y="0.0" width="283" height="776"/>
+                                <rect key="frame" x="0.0" y="0.0" width="263.5" height="776"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
                                     <tabView translatesAutoresizingMaskIntoConstraints="NO" id="JLi-iq-Ace">
-                                        <rect key="frame" x="-7" y="-10" width="347" height="792"/>
+                                        <rect key="frame" x="-7" y="-10" width="327" height="792"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <animations/>
                                         <font key="font" metaFont="system"/>
                                         <tabViewItems>
                                             <tabViewItem label="Map Tools" identifier="1" id="yNx-z7-TV3">
                                                 <view key="view" wantsLayer="YES" id="32w-0X-fMg">
-                                                    <rect key="frame" x="10" y="33" width="327" height="746"/>
+                                                    <rect key="frame" x="10" y="33" width="307" height="746"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oHp-hI-oMK">
@@ -741,6 +741,14 @@ AAAAAAEGA
                                                                 </segments>
                                                             </segmentedCell>
                                                         </segmentedControl>
+                                                        <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fjf-9w-L9k">
+                                                            <rect key="frame" x="5" y="3" width="25" height="25"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                            <buttonCell key="cell" type="help" bezelStyle="helpButton" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Em6-QF-h7F">
+                                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                        </button>
                                                     </subviews>
                                                 </view>
                                             </tabViewItem>
@@ -763,19 +771,19 @@ AAAAAAEGA
                                 </constraints>
                             </customView>
                             <customView id="cmv-Fo-gUQ">
-                                <rect key="frame" x="293" y="0.0" width="786" height="776"/>
+                                <rect key="frame" x="273.5" y="0.0" width="731.5" height="776"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
                                     <splitView dividerStyle="paneSplitter" translatesAutoresizingMaskIntoConstraints="NO" id="8pG-fv-V4I">
-                                        <rect key="frame" x="0.0" y="0.0" width="786" height="776"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="732" height="776"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <subviews>
                                             <customView id="Cbx-yg-0zS">
-                                                <rect key="frame" x="0.0" y="0.0" width="786" height="526"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="732" height="526"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <customView translatesAutoresizingMaskIntoConstraints="NO" id="dFw-6T-2By" customClass="AGSMapView">
-                                                        <rect key="frame" x="0.0" y="0.0" width="793" height="526"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="739" height="526"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                     </customView>
                                                 </subviews>
@@ -788,18 +796,18 @@ AAAAAAEGA
                                                 </constraints>
                                             </customView>
                                             <customView id="f1h-cN-EHl">
-                                                <rect key="frame" x="0.0" y="536" width="786" height="240"/>
+                                                <rect key="frame" x="0.0" y="536" width="732" height="240"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeZ-BE-EZF">
-                                                        <rect key="frame" x="0.0" y="1" width="786" height="239.5"/>
+                                                        <rect key="frame" x="0.0" y="1" width="732" height="239.5"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <clipView key="contentView" id="zDT-Zw-iCE">
-                                                            <rect key="frame" x="1" y="17" width="784" height="221.5"/>
+                                                            <rect key="frame" x="1" y="17" width="730" height="221.5"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" headerView="xQ7-EQ-SET" id="e0t-fE-WFe">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="784" height="222"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="730" height="222"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <size key="intercellSpacing" width="3" height="2"/>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -818,7 +826,7 @@ AAAAAAEGA
                                                                             </textFieldCell>
                                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                         </tableColumn>
-                                                                        <tableColumn width="662" minWidth="40" maxWidth="1000" id="G6d-Rp-nPg">
+                                                                        <tableColumn width="608" minWidth="40" maxWidth="1000" id="G6d-Rp-nPg">
                                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
                                                                                 <font key="font" metaFont="smallSystem"/>
                                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -845,7 +853,7 @@ AAAAAAEGA
                                                             <autoresizingMask key="autoresizingMask"/>
                                                         </scroller>
                                                         <tableHeaderView key="headerView" id="xQ7-EQ-SET">
-                                                            <rect key="frame" x="0.0" y="0.0" width="784" height="17"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="730" height="17"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                         </tableHeaderView>
                                                     </scrollView>
