@@ -480,9 +480,9 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/brigus/Library/SDKs/ArcGIS/OSX,
+					/Users/bmgustafson/Library/SDKs/ArcGIS/OSX,
 				);
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Users/brigus/Library/SDKs/ArcGIS/OSX;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(USER_LIBRARY_DIR)/SDKs/ArcGIS/OSX";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleMapViewer/SampleMapViewer-Prefix.pch";
 				INFOPLIST_FILE = "SampleMapViewer/SampleMapViewer-Info.plist";
