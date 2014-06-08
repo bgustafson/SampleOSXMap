@@ -1,11 +1,3 @@
-//
-//  AppDelegate.m
-//  SampleMapViewer
-//
-//  Created by Brian Gustafson on 12/21/13.
-//  Copyright (c) 2013 Brian Gustafson. All rights reserved.
-//
-
 #import "AppDelegate.h"
 
 @implementation AppDelegate
@@ -37,6 +29,7 @@ AGSGeometryEngine *geometryEngine;
     //Add it to the map view
     [self.mapView addMapLayer:bgLayer withName:BackgroundLayer];
     [self.mapView addMapLayer:demographicsLayer withName:@"Demo Layer"];
+    [self.mapView addMapLayer:[[AGSDynamicMapServiceLayer alloc] initWithURL:[NSURL URLWithString:@"Need Test URL with tabluar data for grid"]] withName:@"TestData"];
 }
 
 - (IBAction)changeBackground:(id)sender {
@@ -65,6 +58,12 @@ AGSGeometryEngine *geometryEngine;
     AGSTiledMapServiceLayer* newBasemapLayer = [AGSTiledMapServiceLayer tiledMapServiceLayerWithURL:basemapURL];
     newBasemapLayer.name = BackgroundLayer;
     [self.mapView insertMapLayer:newBasemapLayer atIndex:0];
+}
+
+- (IBAction)helpButtonClick:(id)sender {
+    NSLog(@"button clicked");
+    //open a link to help doc
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString: @"http://www.google.com"]];
 }
 
 @end
