@@ -1,7 +1,7 @@
 #import <Cocoa/Cocoa.h>
 #import <ArcGIS/ArcGIS.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSViewController<AGSMapViewTouchDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 @property (strong) IBOutlet AGSMapView *mapView;

@@ -30,6 +30,8 @@ AGSGeometryEngine *geometryEngine;
     [self.mapView addMapLayer:bgLayer withName:BackgroundLayer];
     [self.mapView addMapLayer:demographicsLayer withName:@"Demo Layer"];
     [self.mapView addMapLayer:[[AGSDynamicMapServiceLayer alloc] initWithURL:[NSURL URLWithString:@"Need Test URL with tabluar data for grid"]] withName:@"TestData"];
+    
+    self.mapView.touchDelegate = self;
 }
 
 - (IBAction)changeBackground:(id)sender {
@@ -58,6 +60,12 @@ AGSGeometryEngine *geometryEngine;
     AGSTiledMapServiceLayer* newBasemapLayer = [AGSTiledMapServiceLayer tiledMapServiceLayerWithURL:basemapURL];
     newBasemapLayer.name = BackgroundLayer;
     [self.mapView insertMapLayer:newBasemapLayer atIndex:0];
+}
+
+- (BOOL)mapView:(AGSMapView *)mapView shouldProcessClickAtPoint:(CGPoint)screen mapPoint:(AGSPoint *)mappoint {
+    NSLog(@"MapView's shouldProcessClickAtPoint invoked!");
+    //do a map query
+    return YES;
 }
 
 - (IBAction)helpButtonClick:(id)sender {
